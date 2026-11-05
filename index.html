@@ -1,9 +1,17 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>LiggéeyalMa</title>
-<meta name="claude:viewport-fit-sides" content="cover">
+
 <meta name="description" content="LiggéeyalMa, l'application sénégalaise qui met en relation les particuliers et les professionnels de services, près de chez eux. Bientôt disponible à Dakar.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@400;600;700;800&display=swap">
+<meta property="og:title" content="LiggéeyalMa">
+<meta property="og:description" content="Le bon professionnel, près de chez vous. Bientôt disponible à Dakar.">
+<meta name="theme-color" content="#176B5B">
 <style>
 /* Layout: header band (brand green) with hero + phone, then light sections; one column on phones. */
 :root{
@@ -20,6 +28,8 @@
   --bg:#0C1A17; --surface:#12241F; --fg:#E8F1EE; --muted:#A9C2BB; --line:#24413A;
   --green-soft:#183A32; --ocre-soft:#3A2414; --ocre:#F2A668; color-scheme:dark }
 *{box-sizing:border-box}
+img{max-width:100%}
+:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 body{background:var(--bg);color:var(--fg);font-family:var(--font);font-size:17px;line-height:1.55;margin:0}
 .wrap{max-width:1080px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
 h1,h2,h3{text-wrap:balance;line-height:1.15;margin:0}
@@ -96,7 +106,8 @@ footer{border-top:1px solid var(--line);padding-block:32px;font-size:.92rem;colo
   .brand{font-size:1.15rem}
 }
 </style>
-
+</head>
+<body>
 <div class="band">
   <div class="wrap">
     <header class="top">
@@ -192,3 +203,5 @@ footer{border-top:1px solid var(--line);padding-block:32px;font-size:.92rem;colo
     <div class="social">Suivez-nous sur TikTok : <a href="https://www.tiktok.com/@liggeyalma" target="_blank" rel="noopener">@liggeyalma</a></div>
   </div>
 </footer>
+</body>
+</html>
